@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Your Portfolio</title>
+    <link rel="stylesheet" href="syle.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Home Section -->
+    <section id="home">
+      <div class="intro">
+        <h1>Welcome to My Portfolio</h1>
+        <p>
+          I'm a passionate developer with expertise in web and system
+          development.
+        </p>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+      <h2>About Me</h2>
+      <p>
+        I'm a skilled developer with experience in building dynamic and
+        interactive web systems. My expertise includes full-stack development,
+        working with databases, and creating intuitive UI/UX designs.
+      </p>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+      <h2>My Projects</h2>
+      <div class="project-cards">
+        <!-- Library Web Project -->
+        <div class="project-card">
+          <h3>Library Web</h3>
+          <p>
+            A web application designed to manage library operations, including
+            book borrowing, returning, and user management.
+          </p>
+          <a href="#" target="_blank">View Project</a>
+        </div>
+        <!-- Hostel Management System Project -->
+        <div class="project-card">
+          <h3>Hostel Management System</h3>
+          <p>
+            This system manages student hostel accommodation, including room
+            allocation, billing, and visitor management.
+          </p>
+          <a href="#" target="_blank">View Project</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+      <h2>Contact Me</h2>
+      <p>
+        If you'd like to work with me or have any questions, feel free to reach
+        out!
+      </p>
+      <form action="#" method="POST">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required />
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" required></textarea>
+
+        <button type="submit">Send Message</button>
+      </form>
+    </section>
+
+    <footer>
+      <p>© 2025 Sarik Ghanchi | All Rights Reserved</p>
+    </footer>
+  </body>
+</html>
